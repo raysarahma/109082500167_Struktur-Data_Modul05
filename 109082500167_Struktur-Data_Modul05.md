@@ -673,7 +673,7 @@ int main()
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul04/blob/main/109082500167_Struktur-Data_Modul04/output/output-unguide01.png?raw=true)
+![Screenshot Output Unguided 1_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul05/blob/main/output/output-unguide01.png)
 
 penjelasan unguided 1 : Di unguided 1 ADT Singly Linked List dibuat dalam tiga file. Singlylist.h berisi type infotype, address, ElmList, dan List serta prototipe primitifnya, Singlylist.cpp berisi realisasinya, dan main.cpp jadi driver buat mencobanya. CreateList mengisi first dengan Nil supaya list kosong di awal. alokasi membuat elemen baru dengan new, lalu info diisi x dan next diisi Nil. insertFirst menyambungkan elemen baru ke elemen yang tadinya paling depan (P->next = L.first), lalu elemen baru itu dijadikan first. printInfo menelusuri list dari first sampai Nil sambil mencetak info tiap elemen.
 Elemen 2, 0, 8, 12, 9 semuanya dimasukkan pakai insertFirst, jadi elemen yang masuk paling akhir akan ada di paling depan. Makanya outputnya 9 12 8 0 2, kebalik dari urutan input.
